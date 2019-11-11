@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div class="container">
     
 
         
@@ -28,7 +28,7 @@
         <asp:Button ID="Button2" runat="server" Text="Button" CssClass="btn btn-primary" OnClick="Button2_Click"/>
 &nbsp;&nbsp;
         <asp:Button ID="Button3" runat="server" Text="Button" CssClass="btn btn-danger" OnClick="Button3_Click" />
-        <br />
+        &nbsp;<br />
     
     </div>
         <asp:ScriptManager ID="ScriptManager1" runat="server">
